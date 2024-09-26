@@ -17,6 +17,7 @@ import org.hibernate.envers.Audited;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Autor extends Base {
+
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "apellido")
